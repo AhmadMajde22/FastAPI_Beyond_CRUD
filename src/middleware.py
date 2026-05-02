@@ -54,6 +54,6 @@ def register_middleware(app: FastAPI):
         allowed_hosts=[
             "localhost",
             "127.0.0.1",
-            "https://fastapi-beyond-crud-zkb8.onrender.com/",
+            "fastapi-beyond-crud-zkb8.onrender.com",
         ],
     )
